@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sensetecnic/!svn/ver/3826/wot-kit/trunk/sensetecnic-client/src/test/java/com/sensetecnic/client
+END
+AppTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sensetecnic/!svn/ver/3111/wot-kit/trunk/sensetecnic-client/src/test/java/com/sensetecnic/client/AppTest.java
+END
+SenseTecnicClientTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sensetecnic/!svn/ver/3826/wot-kit/trunk/sensetecnic-client/src/test/java/com/sensetecnic/client/SenseTecnicClientTest.java
+END
+OAuth2NamePasswordClientTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sensetecnic/!svn/ver/3111/wot-kit/trunk/sensetecnic-client/src/test/java/com/sensetecnic/client/OAuth2NamePasswordClientTest.java
+END
