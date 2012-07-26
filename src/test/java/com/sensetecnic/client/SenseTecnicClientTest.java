@@ -18,7 +18,7 @@ public class SenseTecnicClientTest extends TestCase {
 	protected void setUp() throws Exception {
 		super.setUp();
 		client = new SenseTecnicClient();
-		client.setStsBaseUrl("http://localhost:8080/sensetecnic-web/api");
+		client.setStsBaseUrl("http://demo.sensetecnic.com/SenseTecnic/api");
 	}
 	
 	@After
@@ -51,6 +51,7 @@ public class SenseTecnicClientTest extends TestCase {
 			String csvData = client.getSensorDataCsv("random.mule333", 10, "mike", "spidey7");
 		} catch (SenseTecnicException e) {
 			// success - should be a 404
+			return;
 		}
 		fail("exception not thrown");
 	}
