@@ -5,10 +5,11 @@
 	<packaging>jar</packaging>
 	<name>sensetecnic-client</name>
 	<url>http://maven.apache.org</url>
+	<version>${com.sensetecnic.wotkit.version}</version>
 	<parent>
 		<groupId>com.sensetecnic.wotkit</groupId>
 		<artifactId>wotkit</artifactId>
-		<version>0.8-RELEASE</version>
+		<version>1</version>
 		<relativePath>../sensetecnic-parent/pom.xml</relativePath>
 	</parent>
 	<properties>
