@@ -28,8 +28,6 @@ public class SenseTecnicClientTest extends TestCase {
 	
 	@Test
 	public void testGetData() throws SenseTecnicException, IOException {
-
-
 		String csvData = client.getSensorDataCsv("sensetecnic.mule1", 10, "mike", "aMUSEment2");
 		
 		CsvReader reader = new CsvReader(new StringReader(csvData));
@@ -48,8 +46,8 @@ public class SenseTecnicClientTest extends TestCase {
 	@Test
 	public void testGetDataBadSensor() throws SenseTecnicException, IOException {
 		try {
-			String csvData = client.getSensorDataCsv("random.mule333", 10, "mike", "spidey7");
-		} catch (SenseTecnicException e) {
+			String csvData = client.getSensorDataCsv("random.mule333", 10, "mike", "aMUSEment2");
+		} catch (Exception e) {
 			// success - should be a 404
 			return;
 		}
