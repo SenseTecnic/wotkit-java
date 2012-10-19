@@ -49,7 +49,7 @@ public class SenseTecnicClientTest extends TestCase {
 	public void testGetDataBadSensor() throws SenseTecnicException, IOException {
 		try {
 			String csvData = client.getSensorDataCsv("random.mule333", 10, "mike", "spidey7");
-		} catch (SenseTecnicException e) {
+		} catch (Exception e) {
 			// success - should be a 404
 			return;
 		}
