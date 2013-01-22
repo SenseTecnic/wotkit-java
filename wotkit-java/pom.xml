@@ -6,14 +6,14 @@
 	<name>sensetecnic-client</name>
 	<url>http://maven.apache.org</url>
 	<version>${com.sensetecnic.wotkit.version}</version>
-	<parent>
-		<groupId>com.sensetecnic.wotkit</groupId>
-		<artifactId>wotkit</artifactId>
-		<version>1</version>
-		<relativePath>../sensetecnic-parent/pom.xml</relativePath>
-	</parent>
+	<groupId>com.sensetecnic.wotkit</groupId>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java-version>1.6</java-version>
+		<com.sensetecnic.wotkit.version>0.8.6.SNAPSHOT</com.sensetecnic.wotkit.version>
+		<org.springframework.version>3.1.1.RELEASE</org.springframework.version>
+		<org.springframework.security-version>3.1.3.RELEASE</org.springframework.security-version>
+		<org.slf4j.version>1.5.10</org.slf4j.version>
 	</properties>
 	<dependencies>
 		<dependency>
